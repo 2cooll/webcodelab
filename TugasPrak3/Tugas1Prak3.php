@@ -5,7 +5,7 @@ namespace LibrarySystem {
     // Trait untuk menampilkan informasi perpustakaan
     trait LibraryTrait {
         public function showInfo() {
-            echo "Library: This is a system for managing books.<br>";
+            echo "Program Perpustakaan Sederhana.<br> <br>";
         }
     }
 
