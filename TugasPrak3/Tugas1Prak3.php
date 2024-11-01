@@ -65,8 +65,8 @@ namespace {
     use LibrarySystem\Member;
 
     // Membuat objek buku
-    $book1 = new Book("1984", "George Orwell", "Dystopian");
-    $book2 = new Book("The Great Gatsby", "F. Scott Fitzgerald", "Classic");
+    $book1 = new Book("2012", "Mami Maclaren", "Disaster");
+    $book2 = new Book("Throne 2024", "Maya Maya", "Classic");
 
     // Menampilkan informasi perpustakaan
     $book1->showInfo();
@@ -76,7 +76,7 @@ namespace {
     echo $book2 . "<br>";
 
     // Membuat anggota perpustakaan
-    $member = new Member("Alice", "M123");
+    $member = new Member("Yudha Keling", "Y123");
 
     // Anggota meminjam buku
     $member->borrowBook($book1);
